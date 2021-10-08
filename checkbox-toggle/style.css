@@ -1,0 +1,30 @@
+:root,
+:root.light {
+    --background-color: rgb(223, 223, 223);
+    --text-color: rgb(46, 46, 46);
+}
+
+:root.dark {
+    --background-color: rgb(46, 46, 46);
+    --text-color: rgb(223, 223, 223); 
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.theme-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.theme-toggle .form-check {
+    margin: 0 10px;
+}
